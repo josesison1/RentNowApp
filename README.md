@@ -1,4 +1,4 @@
-# "RentNow" Marketing Application
+# "RentNow" Marketing Application  
  
 <p align="center">
   <img width="800" height="350" src="https://github.com/josesison1/RentNow-UI-UX/blob/master/Wireframe%20and%20diagrams/project%20pic.PNG"> </p>
@@ -31,7 +31,7 @@
  
  
   
-  This is a marketing application for users who are interested in renting items from others in their sorrounding area. This application contains various types of items avaiable to rent with local users. Find items nearby by entering your currently location or zip code and be able to set a miles radius on how far you are willing to network. Browse through different categories or search for specific items you are looking for. With a simple click of a button, you can now interact with the listing user and rent an item.
+  This is a marketing application for users who are interested in renting items from others in their surrounding area. This application contains various types of items avaiable to rent with local users. Find items nearby by entering your currently location or zip code and be able to set a miles radius on how far you are willing to network. Browse through different categories or search for specific items you are looking for. With a simple click of a button, you can now interact with the listing user and rent an item.
 
 
 ---
