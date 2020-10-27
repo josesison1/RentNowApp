@@ -1,16 +1,24 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "Welcome - RentNow!";
 }
 
 <!DOCTYPE>
 
 <html>
 <body class="" background="img\background4.jpg">
-    <div class="text-center">
-        <a class="btn btn-outline-danger btn-lg" asp-action="Index" asp-controller="Users">Login</a> 
-        <br />
-        <br />
-        <a class="btn btn-outline-danger btn-lg" asp-action="Index" asp-controller="Users">Register</a>        
-    </div>
+            <div class="text-center">                
+            <br />
+                <h4>Categories</h4>
+            <a class="btn btn-outline-danger btn-group-sm" asp-action="Index" asp-controller="Categories">Appliances</a>
+            <a class="btn btn-outline-danger btn-group-sm" asp-action="Index" asp-controller="Categories">Automotive</a>
+            <a class="btn btn-outline-danger btn-group-sm" asp-action="Index" asp-controller="Categories">Books</a>
+            <a class="btn btn-outline-danger btn-group-sm" asp-action="Index" asp-controller="Categories">Clothing</a>
+            <a class="btn btn-outline-danger btn-group-sm" asp-action="Index" asp-controller="Categories">Electronics</a>
+            <a class="btn btn-outline-danger btn-group-sm" asp-action="Index" asp-controller="Categories">Games</a>
+            <a class="btn btn-outline-danger btn-group-sm" asp-action="Index" asp-controller="Categories">Household Items</a>
+            <a class="btn btn-outline-danger btn-group-sm" asp-action="Index" asp-controller="Categories">Sports & Fitness</a>
+            <a class="btn btn-outline-danger btn-group-sm" asp-action="Index" asp-controller="Categories">Tools</a>
+            <a class="btn btn-outline-danger btn-group-sm" asp-action="Index" asp-controller="Categories">Toys</a>
+        </div>
 </body>
 </html>
