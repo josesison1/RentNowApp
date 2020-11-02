@@ -201,11 +201,11 @@ __Then__ the application populate new searches that is within those set settings
 |TID12|5.0, 5.1|Ensure Category list is implemented and accessible|Tested|10-21-2020|
 |TID114|6.0, 6.1, 6.2|Ensure Category list is implemented and accessible|Tested|10-28-2020|
 
-## What percent of requirements are (currently) covered by test cases?
+### What percent of requirements are (currently) covered by test cases?
 
-## What percent of test cases are currently passing?
+### What percent of test cases are currently passing?
 
-## What level of Validation could be expected after Verification? (Acceptance Tests?) 
+### What level of Validation could be expected after Verification? (Acceptance Tests?) 
 
 
 ---
