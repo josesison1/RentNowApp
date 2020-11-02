@@ -181,6 +181,13 @@ __Then__ the application populate new searches that is within those set settings
 |3.1|System shall calculate rental cost per users rental length entry|Test|TID9|
 |4.0|Automated Message to listing user|Test|TID10|
 |4.1|System shall generate automated message to the listing user once the other user selects "Rent Now" button|Inspection|TID11|
+|5.0|Ensure categories list is implemented|Inspect|TID12|
+|5.1|Ensure category list are accessible|Inspect|TID13|
+|6.0|System shall allow users to post a listing|Test|TID14|
+|6.1|System shall allow users upload photos of their listing|Test|TID15|
+|6.2|System shall allow users to enter description of their listing|Test|TID16|
+
+
 
 ---
 [back to top](#back-to-top)
@@ -191,6 +198,10 @@ __Then__ the application populate new searches that is within those set settings
 |TID5|2.0, 2.1, 2.2|Ensure error message is displayed once user reach maximum login attempts|Not Tested||
 |TID8|3.0, 3.1|Ensure the system calculates the prices of rental length once selected by user|Not Tested||
 |TID10|4.0, 4.1|Ensure the system generates an automated message to the listing user once "Rent Now" button is clicked|Not Tested||
+|TID12|5.0, 5.1|Ensure Category list is implemented and accessible|Tested|
+|TID114|6.0, 6.1, 6.2|Ensure Category list is implemented and accessible|Tested|
+
+
 
 ---
 [back to top](#back-to-top)
