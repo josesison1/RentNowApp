@@ -198,8 +198,8 @@ __Then__ the application populate new searches that is within those set settings
 |TID5|2.0, 2.1, 2.2|Ensure error message is displayed once user reach maximum login attempts|Not Tested||
 |TID8|3.0, 3.1|Ensure the system calculates the prices of rental length once selected by user|Not Tested||
 |TID10|4.0, 4.1|Ensure the system generates an automated message to the listing user once "Rent Now" button is clicked|Not Tested||
-|TID12|5.0, 5.1|Ensure Category list is implemented and accessible|Tested|
-|TID114|6.0, 6.1, 6.2|Ensure Category list is implemented and accessible|Tested|
+|TID12|5.0, 5.1|Ensure Category list is implemented and accessible|Tested|10-21-2020|
+|TID114|6.0, 6.1, 6.2|Ensure Category list is implemented and accessible|Tested|10-28-2020|
 
 
 
