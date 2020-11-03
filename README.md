@@ -170,7 +170,7 @@ __Then__ the application populate new searches that is within those set settings
  ## Requirements Table  <a name="Requirements-Table"></a>
 |Requirement No.| Description|Test Method|Test ID|
 |---|------------|-----------|-------|
-|1.0|Create new user account|Inspection|TID1|
+|1.0|Create new user account|Test|TID1|
 |1.1|System shall verify all information input by user are all in correct format|Test|TID2|
 |1.2|System shall verify both password entries match in order to create new account|Test|TID3|
 |1.3|System shall verify registering user is 18 years old or over|Test|TID4|
@@ -181,16 +181,37 @@ __Then__ the application populate new searches that is within those set settings
 |3.1|System shall calculate rental cost per users rental length entry|Test|TID9|
 |4.0|Automated Message to listing user|Test|TID10|
 |4.1|System shall generate automated message to the listing user once the other user selects "Rent Now" button|Inspection|TID11|
+|5.0|Ensure categories list is implemented|Inspect|TID12|
+|5.1|Ensure category list are accessible|Inspect|TID13|
+|6.0|System shall allow users to post a listing|Test|TID14|
+|6.1|System shall allow users upload photos of their listing|Test|TID15|
+|6.2|System shall allow users to enter description of their listing|Test|TID16|
+
+
 
 ---
 [back to top](#back-to-top)
  ## Test Table  <a name="Test-Table"></a>
 |Test ID|Req. No.|Test Procedure|Status|Data/Time Stamp| 
 |-------|--------|--------------|------|---------------|
-|TID1|1.0, 1.1, 1.2, 1.3|Ensure register is properly working when clicked and user enters correct format on all fields|Not Tested| |
-|TID5|2.0, 2.1, 2.2|Ensure error message is displayed once user reach maximum login attempts|Not Tested||
+|TID1|1.0, 1.1, 1.2, 1.3|Ensure register is properly working when clicked and user enters correct format on all fields|Failed| |
+|TID5|2.0, 2.1, 2.2|Ensure error message is displayed once user reach maximum login attempts|Failed||
 |TID8|3.0, 3.1|Ensure the system calculates the prices of rental length once selected by user|Not Tested||
 |TID10|4.0, 4.1|Ensure the system generates an automated message to the listing user once "Rent Now" button is clicked|Not Tested||
+|TID12|5.0, 5.1|Ensure Category list is implemented and accessible|Tested|10-21-2020|
+|TID114|6.0, 6.1, 6.2|Ensure users have access and able to post a listing|Tested|10-28-2020|
+
+### What percent of requirements are (currently) covered by test cases?
+
+31.25% of the requirements are currently covered by test cases which are 5 out of the 16 requirements have been tested for funtionality. Some of the requirements are still in progress and needs to get implemented. 
+
+### What percent of test cases are currently passing?
+
+Currently 50% of the test are passing.
+
+### What level of Validation could be expected after Verification? (Acceptance Tests?) 
+
+The validation of test that could be expected after verification is the login process. Once the user enters their proper login information, that data would need to be verified and validated for them to access the application. Once the user is completely logged in, they should be able to have full access to the application as far as posting a listing and see other users listing and be able to message them.
 
 ---
 [back to top](#back-to-top)
