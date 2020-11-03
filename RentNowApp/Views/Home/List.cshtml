@@ -1,51 +1,50 @@
-﻿<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] </title>
-    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="~/css/site.css" />
-    <link href="/lib/font-awesome/css/all.min.css" rel="stylesheet" />
-</head>
+﻿@{
+    ViewData["Title"] = "List your item - RentNow";
+}
+
+<!DOCTYPE html>
+<html>
 <body>
-    <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-dark bg-danger border-bottom box-shadow mb-3">
-            <img src="~/img/logo.PNG" width="60" height="60" />
-            <div class="container">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">RentNow</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div>
-                    <form action="/action_page.php">
-                        <input type="text" placeholder="Search your item" name="search">
-                        <input type="text" placeholder="Enter ZIP Code" name="search">
-                        <a class="btn btn-light btn-sm" asp-action="Login">Go</a>
-                    </form>
-                </div>
-
-                <div>
-                    <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">List an Item</a>
-                                            <a class="btn btn-light btn-lg" asp-action="Login" asp-controller="Users">Login</a>
-                        <a class="btn btn-light btn-lg" asp-action="Index" asp-controller="Users">Register</a>
-                    
-                </div>
-            </div>
-        </nav>
-    </header>
-    <div class="container">
-        <main role="main" class="pb-3">
-            @RenderBody()
-        </main>
+    <div class="text-center">
+        <h1> List your item for rent</h1>
     </div>
-
-
-    <script src="~/lib/jquery/dist/jquery.min.js"></script>
-    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="~/js/site.js" asp-append-version="true"></script>
-    @RenderSection("Scripts", required: false)
+    <br />
+    <div class="text-sm-left">
+        <form>
+            <div class="form-group">
+                <label for="name"><strong>Item</strong></label>
+                <input type="email" class="form-control" id="" aria-describedby="" placeholder="Name of item">
+            </div>
+            <div class="form-group">
+                <label for="exampleFormControlSelect1"><strong>Category</strong></label>
+                <select class="form-control" id="exampleFormControlSelect1">
+                    <option>Appliances</option>
+                    <option>Automotive</option>
+                    <option>Books</option>
+                    <option>Clothing</option>
+                    <option>Electronics</option>
+                    <option>Games</option>
+                    <option>Household Items</option>
+                    <option>Sports & Fitness</option>
+                    <option>Tools</option>
+                    <option>Toys</option>
+                </select>
+            </div>
+            <div>
+                <label for="exampleFormControlSelect1"><strong>Description</strong></label><br />
+                <textarea id="esc" rows="10" cols="155"></textarea>
+            </div><br />
+            <div>
+                <label for="exampleFormControlSelect1"><strong>Price</strong></label><br />
+                $ <textarea id="esc" rows="1" cols="2"> </textarea> <strong>/day </strong> <br />
+            </div>
+            <br />
+            <div class="form-group">
+                <label for="exampleFormControlFile1"><strong>Upload image</strong></label>
+                <input type="file" class="form-control-file" id="exampleFormControlFile1">
+            </div><br />
+            <button type="submit" class="btn btn-primary">List</button>
+        </form>
+    </div>
 </body>
 </html>
-

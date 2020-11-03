@@ -1,101 +1,121 @@
 ﻿@{
-        ViewData["Title"] = "Welcome - RentNow!";
-    }
+    ViewData["Title"] = "Welcome - RentNow!";
+}
 
-    <!DOCTYPE>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        .card {
+            box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+            transition: 0.3s;
+            width: px;
+        }
 
-    <html>
-    <body background="img\background4.jpg" bgproperties="fixed">
+        .column {
+            float: left;
+            width: 100%;
+            padding: 10px;
+        }
 
-        <!-- CATEGORIES  -->
-        <div class="text-center">
-            <br />
-            <h4>Categories</h4>
-            <a class="btn btn-outline-danger btn-group-sm" asp-action="Index" asp-controller="Categories">Appliances</a>
-            <a class="btn btn-outline-danger btn-group-sm" asp-action="Index" asp-controller="Categories">Automotive</a>
-            <a class="btn btn-outline-danger btn-group-sm" asp-action="Index" asp-controller="Categories">Books</a>
-            <a class="btn btn-outline-danger btn-group-sm" asp-action="Index" asp-controller="Categories">Clothing</a>
-            <a class="btn btn-outline-danger btn-group-sm" asp-action="Index" asp-controller="Categories">Electronics</a>
-            <a class="btn btn-outline-danger btn-group-sm" asp-action="Index" asp-controller="Categories">Games</a>
-            <a class="btn btn-outline-danger btn-group-sm" asp-action="Index" asp-controller="Categories">Household Items</a>
-            <a class="btn btn-outline-danger btn-group-sm" asp-action="Index" asp-controller="Categories">Sports & Fitness</a>
-            <a class="btn btn-outline-danger btn-group-sm" asp-action="Index" asp-controller="Categories">Tools</a>
-            <a class="btn btn-outline-danger btn-group-sm" asp-action="Index" asp-controller="Categories">Toys</a>
-        </div>
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+    </style>
+</head>
+<body background="img\background4.jpg" bgproperties="fixed">
+
+    <!-- CATEGORIES  -->
+    <div class="text-center">
         <br />
-        <br />
+        <h4>Categories</h4>
+        <a class="btn btn-outline-danger btn-group-sm" asp-action="" asp-controller="Categories">Appliances</a>
+        <a class="btn btn-outline-danger btn-group-sm" asp-action="Index" asp-controller="Categories">Automotive</a>
+        <a class="btn btn-outline-danger btn-group-sm" asp-action="Index" asp-controller="Categories">Books</a>
+        <a class="btn btn-outline-danger btn-group-sm" asp-action="Index" asp-controller="Categories">Clothing</a>
+        <a class="btn btn-outline-danger btn-group-sm" asp-action="Index" asp-controller="Categories">Electronics</a>
+        <a class="btn btn-outline-danger btn-group-sm" asp-action="Index" asp-controller="Categories">Games</a>
+        <a class="btn btn-outline-danger btn-group-sm" asp-action="Index" asp-controller="Categories">Household Items</a>
+        <a class="btn btn-outline-danger btn-group-sm" asp-action="Index" asp-controller="Categories">Sports & Fitness</a>
+        <a class="btn btn-outline-danger btn-group-sm" asp-action="Index" asp-controller="Categories">Tools</a>
+        <a class="btn btn-outline-danger btn-group-sm" asp-action="Index" asp-controller="Categories">Toys</a>
+    </div>
+    <br />
+    <br />
 
-        <!-- LISTING 1-->
-        <style>
-            .bordered {
-                width: 418px;
-                height: 500px;
-                padding: 3px;
-                border: 2px solid gray;
-                border-radius: 8px;
-            }
-        </style>
-        <div class="bordered">
-            <img src="~/img/electric bike.jpg" width="410" height="400" />
-            <h6>Electric Metro Bike</h6>
-            <em>$2/ day</em>
-            <br />
-            San Diego, CA <a href="" class="btn btn-primary">More info</a>
+    <!-- LISTING 1-->
+    <div class="row">
+        <div class="card">
+            <div class="column">
+                <img src="~/img/electric bike.jpg" width="410" height="400" />
+                <h6>Electric Metro Bike</h6>
+                <em>$2/ day</em>
+                <br />
+                San Diego, CA <a href="" class="btn btn-primary">More info</a>
+            </div>
         </div>
 
         <!-- LISTING 2-->
-        <style>
-            .bordered1 {
-                width: 418px;
-                height: 500px;
-                padding: 2px;
-                border: 3px solid gray;
-                border-radius: 8px;
-            }
-        </style>
-        <div class="bordered1">
-            <img src="~/img/ps55.jpg" width="410" ; height="400" />
-            <h6>Playstation 5 (Brand New)</h6>
-            <em>$3/ day</em>
-            <br />
-            Oceanside, CA <a href="" class="btn btn-primary">More info</a>
-        </div>
+        <div class="card">
 
+            <div class="column">
+                <img src="~/img/ps55.jpg" width="410" ; height="400" />
+                <h6>Playstation 5 (Brand New)</h6>
+                <em>$3/ day</em>
+                <br />
+                Oceanside, CA <a href="" class="btn btn-primary">More info</a>
+            </div>
+        </div>
 
         <!-- LISTING 3-->
-        <style>
-            .bordered {
-                width: 418px;
-                height: 500px;
-                padding: 3px;
-                border: 2px solid gray;
-                border-radius: 8px;
-            }
-        </style>
-        <div class="bordered">
-            <img src="~/img/gym.jpg" width="410" height="400" />
-            <h6>Home Gym</h6>
-            <em>$5/ day</em>
-            <br />
-            Carlsbad, CA <a href="" class="btn btn-primary">More info</a>
+        <div class="card">
+
+            <div class="column">
+                <img src="~/img/gym.jpg" width="410" height="400" />
+                <h6>Home Gym</h6>
+                <em>$5/ day</em>
+                <br />
+                Carlsbad, CA <a href="" class="btn btn-primary">More info</a>
+            </div>
         </div>
-        
+
         <!-- LISTING 4-->
-        <style>
-            .bordered {
-                width: 418px;
-                height: 500px;
-                padding: 3px;
-                border: 2px solid gray;
-                border-radius: 8px;
-            }
-        </style>
-        <div class="bordered">
-            <img src="~/img/xbox games.jpg" width="410" height="400" />
-            <h6>Xbox Games</h6>
-            <em>>$1/ day</em>
-            <br />
-            Poway, CA <a href="" class="btn btn-primary">More info</a>
-        </div>        
-    </body>
+                <div class="card">
+            <div class="column">
+                <img src="~/img/tread.jpg" width="410" height="400" />
+                <h6>Nordictrack 1750 Treadmill</h6>
+                <em>$3/ day</em>
+                <br />
+                Vista, CA <a href="" class="btn btn-primary">More info</a>
+            </div>
+        </div>
+
+        <!-- LISTING 5-->
+        <div class="card">
+            <div class="column">
+                <img src="~/img/comin.jpg" width="410" height="400" />
+                <h6>Comic Collection</h6>
+                <em>$1/ day</em>
+                <br />
+                San Diego, CA <a href="" class="btn btn-primary">More info</a>
+            </div>
+        </div>
+
+
+        <!-- LISTING 6-->
+        <div class="card">
+
+            <div class="column">
+                <img src="~/img/xbox games.jpg" width="410" height="400" />
+                <h6>Xbox Games</h6>
+                <em>$1/ day</em>
+                <br />
+                Poway, CA <a href="" class="btn btn-primary">More info</a>
+            </div>
+        </div>
+    </div>
+
+</body>
 </html>
