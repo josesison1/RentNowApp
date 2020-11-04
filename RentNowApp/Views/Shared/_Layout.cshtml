@@ -32,8 +32,9 @@
 
                 <div>
                     <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="List">Add a listing</a>
-                    <a class="btn btn-light btn-lg" asp-action="Index" asp-controller="Users">Login</a>
-                    <a class="btn btn-light btn-lg" asp-action="Index" asp-controller="Users">Register</a>
+                    @*<a class="btn btn-light btn-lg" asp-page="/Acount/Login" asp-area="Identity">Login</a>
+                    <a class="btn btn-light btn-lg" asp-page="/Account/Register" asp-area="Identity">Register</a>*@
+                    <partial name="_LoginPartial" />
                 </div>
                     </div>
 </nav>
