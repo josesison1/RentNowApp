@@ -194,24 +194,24 @@ __Then__ the application populate new searches that is within those set settings
  ## Test Table  <a name="Test-Table"></a>
 |Test ID|Req. No.|Test Procedure|Status|Data/Time Stamp| 
 |-------|--------|--------------|------|---------------|
-|TID1|1.0, 1.1, 1.2, 1.3|Ensure register is properly working when clicked and user enters correct format on all fields|Failed| |
-|TID5|2.0, 2.1, 2.2|Ensure error message is displayed once user reach maximum login attempts|Failed||
+|TID1|1.0, 1.1, 1.2, 1.3|Ensure register is properly working when clicked and user enters correct format on all fields|Tested|10-28-2020|
+|TID5|2.0, 2.1, 2.2|Ensure error message is displayed once user reach maximum login attempts|Tested|10-28-2020|
 |TID8|3.0, 3.1|Ensure the system calculates the prices of rental length once selected by user|Not Tested||
 |TID10|4.0, 4.1|Ensure the system generates an automated message to the listing user once "Rent Now" button is clicked|Not Tested||
 |TID12|5.0, 5.1|Ensure Category list is implemented and accessible|Tested|10-21-2020|
-|TID114|6.0, 6.1, 6.2|Ensure users have access and able to post a listing|Tested|10-28-2020|
+|TID114|6.0, 6.1, 6.2|Ensure users have access and able to post a listing|Tested|10-21-2020|
 
 ### What percent of requirements are (currently) covered by test cases?
 
-31.25% of the requirements are currently covered by test cases which are 5 out of the 16 requirements have been tested for funtionality. Some of the requirements are still in progress and needs to get implemented. 
+68% of the requirements are covered by test cases which are 12 out of the 16 requirements have been tested for funtionality. Some of the requirements are still in progress and needs to be implemented. 
 
 ### What percent of test cases are currently passing?
 
-Currently 50% of the test are passing.
+Currently 62% of the test are passing.
 
 ### What level of Validation could be expected after Verification? (Acceptance Tests?) 
 
-The validation of test that could be expected after verification is the login process. Once the user enters their proper login information, that data would need to be verified and validated for them to access the application. Once the user is completely logged in, they should be able to have full access to the application as far as posting a listing and see other users listing and be able to message them.
+The validation of test that could be expected after verification is the login process. Once the user enters their proper login information, that data would need to be verified and validated for them to access the application. Once the user is completely logged in, they should be able to have full access to the application as far as posting a listing and to see other users listing and be able to message them.
 
 ---
 [back to top](#back-to-top)
