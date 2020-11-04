@@ -227,5 +227,5 @@ The validation of test that could be expected after verification is the login pr
 
 ## Final Project Review
 #### Describe project experience including each phase of the SDLC and the project artifacts (design documents, requirements trace, test reports)
-The Software Development Life Cycle are all previously stated in this README file.
+-- The Software Development Life Cycle are all previously stated in this README file.
  
