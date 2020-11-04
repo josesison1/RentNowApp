@@ -226,6 +226,20 @@ The validation of test that could be expected after verification is the login pr
 ---
 
 ## Final Project Review
-#### Describe project experience including each phase of the SDLC and the project artifacts (design documents, requirements trace, test reports)
--- The Software Development Life Cycle are all previously stated in this README file.
+#### Project Experience
+The Software Development Life Cycle are all previously stated in this README file.
  
+#### Code and Architecture 
+This application mostly used C#, HTML, and SQL.
+
+#### Product Demonstration
+The application is demonstrated and presented through a local server.
+
+#### What did you do right?
+Following the life cycle as far as identifying a project idea, finding out and listing all the requirements needed to support it. 
+
+#### What did you do wrong?
+I found myself spending too much time on front end, designing and styling the application, and making it look good instead of focusing on the back end and actually work on its functionality. 
+
+#### What would you change and what do you know now that you wish you knew then?
+I wish I would've known how much goes into the back end of an application and would've came up with another project idea that was way more simple to do.
