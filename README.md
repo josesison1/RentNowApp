@@ -18,7 +18,7 @@
   9. [Requirements Table](#Requirements-Table)
   10. [Test Table](#Test-Table)
   11. [Prototype](#Prototype)
-  12. [FinalProjectReview](#FinalProjectReview)
+  12. [Final Project Review](#FinalProjectReview)
   
   ---
 [back to top](#back-to-top)
